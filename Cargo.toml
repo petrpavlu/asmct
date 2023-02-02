@@ -1,0 +1,15 @@
+# Copyright (C) 2023 Petr Pavlu <petr.pavlu@dagobah.cz>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[package]
+name = "asmct"
+version = "0.1.0"
+authors = ["Petr Pavlu <petr.pavlu@dagobah.cz>"]
+edition = "2021"
+
+[build-dependencies]
+bindgen = "0.60"
+cc = "1.0"
+
+[dependencies]
+libc = "0.2"
